@@ -6,7 +6,7 @@
 #---------------------------------------------------------------------------------------#
 
 
-### Script by Pascal Baumgartner - Made in Switzerland ###
+### Script by Pascal Liechti - Made in Switzerland ###
 
 ### Feel Free to us the Script ###
 
@@ -56,7 +56,7 @@ $to      =  "your@email.com"     #Change to your Resivig Email Adress
 $from    =  "your@email.com"     #Change to your Sending Email Adress
 $subject =  "IP Notification"
 $body    =  "<h1>This is a Automatic Notification of the Public IP.</h1>"
-$body    += ì <br> Time: $TimeDate<br><br> Hostname: $Hostname<br><br> Public IP: <b>$MyIP</b>î
+$body    += ‚Äú <br> Time: $TimeDate<br><br> Hostname: $Hostname<br><br> Public IP: <b>$MyIP</b>‚Äù
 
 # Sender Credentials
 $Username = "your@email.com"  #Change to your Username
